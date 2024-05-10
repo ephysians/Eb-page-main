@@ -1,4 +1,4 @@
-[![image](https://github.com/ephysians/Eb-page-main/assets/104981589/8c521f4e-1ca1-46a0-9f46-87a2fb96d91f)](https://ruthinas.netlify.app/)
+(https://ruthinas.netlify.app/)
 
 # Getting Started with Create React App
 
