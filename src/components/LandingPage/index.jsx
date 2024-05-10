@@ -65,7 +65,7 @@ function App() {
           <li className="h-16 lg:hidden">
             <Element
               onClick={toggleSideBar}
-              className="flex items-center bg-white mr-4 cursor-pointer px-2 rounded mt-4 py-1"
+              className="flex items-center bg-white mr-12 cursor-pointer px-4 rounded mt-4 py-1"
             >
               <img src={ImgMenu} id="open-harmburger" alt="side menu" />
             </Element>
@@ -137,7 +137,7 @@ function App() {
         </ul>
       </nav>
       <nav
-        className={`fixed top-0 right-0 h-screen w-64 z-50 text-white bg-white bg-opacity-20 shadow-lg backdrop-filter backdrop-blur-md ${
+        className={`fixed top-0  right-0 h-screen w-64 z-50 bg-opacity-20 shadow-lg backdrop-filter backdrop-blur-md ${
           showSideBarMenu ? "" : "hidden"
         }`}
       >
