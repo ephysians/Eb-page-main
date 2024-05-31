@@ -29,9 +29,9 @@ function App() {
     setShowSideBarMenu(false); // Close the sidebar menu when a navigation link is clicked
   };
 
-  const videoId = "EdcgHfIYL9M";
-  const videoId1 = "0jIVO6zsrcc";
-  const videoId2 = "1l58O2UNQgE";
+  const videoId = "zVem6h14F8I"; // Aquafina video 
+  const videoId1 = "DKRdMpdU26U"; // Real-estate video
+  const videoId2 = "VeTpebuedoE";  //  Voice over Artist
   const emailButtonRef = useRef(null);
   const handleClick = () => {
     const email = "mailto:ruthinasconcept1@gmail.com";
@@ -224,10 +224,11 @@ function App() {
           >
             <div className=" relative text-center bottom-24 z-20 mix-blend-mode: normal bg-slate-700  rounded-md p-2">
               <h1 className="text-6xl mb-1 text-white font-lato font-lato-normal">
-                HI, I'M RUTHINAS
+                HI, I'M RUTHINA
               </h1>
+              <span className="text-xl text-white font-lato font-lato-normal">AND</span>
               <p className="text-xl text-white font-lato font-lato-normal">
-                VOICE OVER ARTIST & VIDEO PRESENTER
+                I AM A VOICE OVER ARTIST & VIDEO PRESENTER
               </p>
             </div>
           </div>
@@ -239,7 +240,7 @@ function App() {
       >
         <section className="h-auto shadow-2xl  px-8 rounded-md flex m-12 flex-col md:px-24 bg-gray-500 justify-center items-center text-center text-1xl">
           <h2 className="text-3xl mt-12 text-blue-400 font-lato font-lato-normal ">
-            A LITTLE BIT ABOUT ME
+            ABOUT ME
           </h2>
           <img
             src={img3}
@@ -250,7 +251,7 @@ function App() {
 
           <div className="">
             <p className="mt-8 mb-4 lg:px-64 text-white font-lato font-lato-normal">
-              Hello! I'm Ruthinas, a talented Multi-faceted Performer. I love
+              Hello! I'm Ruthina, a talented Multi-faceted Performer. I love
               telling stories and captivating audiences with my dynamic voice
               and charming on-screen presence. With years of experience, I
               specialize in creating professional voice-overs....{" "}
@@ -296,7 +297,7 @@ function App() {
                   />
                 </div>
                 <h3 class="font-lato w-full text-blue-900 font-lato-normal text-2xl">
-                  VOICE OVER ARTIST
+                  VOICE OVERS
                 </h3>
                 <span className="font-lato font-lato-regular text-sm text-blue-900 pb-8">
                   <em>Captivating Narrator. Engaging Storyteller.</em>
@@ -325,7 +326,7 @@ function App() {
                   />
                 </div>
                 <h3 class=" font-lato w-full text-blue-900 font-lato-normal text-2xl">
-                  BRAND INFLUENCER
+                  BRAND INFLUENCING
                 </h3>
                 <span className="font-lato font-lato-regular text-sm text-blue-900 pb-8">
                   <em>Lifestyle Enthusiast. Trusted Brand Partner.</em>
@@ -359,7 +360,7 @@ function App() {
                   <em>Social Media Strategist. Content Creator.</em>
                 </span>
               </div>
-              <p class="top-4 font-lato font-lato-normal">
+              <p className="top-4 font-lato font-lato-normal">
                 I specialize in empowering brands to flourish in the digital
                 realm! Through meticulous data-driven strategies, compelling
                 content creation, and adept management across platforms, I
@@ -375,14 +376,14 @@ function App() {
         </section>
       </Element>
       <Element name="portfolio">
-        <section className="h-auto shadow-2xl rounded-md pl-52 pr-48 pb-52 bg-gray-100 flex flex-col justify-center items-center text-center text-1xl">
+        <section className="h-auto shadow-2xl rounded-md pl-48 pr-48 pb-52 bg-gray-100 flex flex-col justify-center items-center text-center text-1xl">
           <h2 className="text-3xl font-lato font-lato-normal pt-8 pb-8 ">
             PORTFOLIO
           </h2>
           <div className="flex w-full flex-col lg:flex-row  justify-between mx-64 gap-12 items-center ">
             <Card
               hoverable
-              style={{ width: 380 }}
+              style={{ width: 330 }}
               cover={<YoutubeEmbed videoId={videoId} />}
             >
               <Meta
@@ -392,14 +393,14 @@ function App() {
             </Card>
             <Card
               hoverable
-              style={{ width: 380 }}
+              style={{ width: 330 }}
               cover={<YoutubeEmbed videoId={videoId1} />}
             >
               <Meta title="Aquafina Water" description="www.aquafina.com" />
             </Card>
             <Card
               hoverable
-              style={{ width: 380 }}
+              style={{ width: 330 }}
               cover={<YoutubeEmbed videoId={videoId2} />}
             >
               <Meta title="Real Estate" description="www.amestate.com" />

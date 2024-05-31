@@ -3,7 +3,7 @@ import YouTube from "react-youtube";
 
 const YoutubeEmbed = ({ videoId }) => (
   <div className="video-container">
-    <YouTube videoId={videoId} opts={{ width: "380", height: "315" }} />
+    <YouTube videoId={videoId} opts={{ width: "330", height: "315",}} />
   </div>
 );
 
