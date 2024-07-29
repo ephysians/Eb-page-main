@@ -13,9 +13,9 @@ import pp from "../../assets/img/pp.png";
 import YoutubeEmbed from "./YoutubeEmbed";
 import { Card } from "antd";
 import Meta from "antd/es/card/Meta";
-import 'animate.css/animate.min.css'; // Needed for AOS animations
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import "animate.css/animate.min.css"; // Needed for AOS animations
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [showFullText, setShowFullText] = useState(false);
@@ -29,9 +29,9 @@ function App() {
     setShowSideBarMenu(false); // Close the sidebar menu when a navigation link is clicked
   };
 
-  const videoId = "zVem6h14F8I"; // Aquafina video 
+  const videoId = "zVem6h14F8I"; // Aquafina video
   const videoId1 = "DKRdMpdU26U"; // Real-estate video
-  const videoId2 = "VeTpebuedoE";  //  Voice over Artist
+  const videoId2 = "VeTpebuedoE"; //  Voice over Artist
   const emailButtonRef = useRef(null);
   const handleClick = () => {
     const email = "mailto:ruthinasconcept1@gmail.com";
@@ -41,8 +41,8 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 200, // Animation duration in milliseconds
-      easing: 'linear', // Animation easing
-      once: false // Animation only happens once
+      easing: "linear", // Animation easing
+      once: false, // Animation only happens once
     });
   }, []);
 
@@ -226,7 +226,9 @@ function App() {
               <h1 className="text-6xl mb-1 text-white font-lato font-lato-normal">
                 HI, I'M RUTHINA
               </h1>
-              <span className="text-xl text-white font-lato font-lato-normal">AND</span>
+              <span className="text-xl text-white font-lato font-lato-normal">
+                AND
+              </span>
               <p className="text-xl text-white font-lato font-lato-normal">
                 I AM A VOICE OVER ARTIST & VIDEO PRESENTER
               </p>
@@ -234,7 +236,8 @@ function App() {
           </div>
         </section>
       </Element>
-      <Element name="about"
+      <Element
+        name="about"
         showFullText={showFullText}
         setShowFullText={setShowFullText}
       >
@@ -304,11 +307,11 @@ function App() {
                 </span>
               </div>
               <p class="top-4 font-lato font-lato-normal">
-                Voice over artist with a passion for crafting impactful audio
-                experiences. Whether breathing life into character, narrating
-                documentaries,or delivering persuasive messages for commercials,
-                I use my clear, versatile voice to connect with your audience
-                and elevate your project. <br />
+                "I'm a Voice over artist with a passion for crafting impactful
+                audio experiences. Whether breathing life into character,
+                narrating documentaries,or delivering persuasive messages for
+                commercials, I use my clear, versatile voice to connect with
+                your audience and elevate your project."" <br />
                 <span className="font-lato text-sm font-lato-regular mt-2 text-blue-950">
                   <em>...bringing your vision to life with my voice.</em>
                 </span>
@@ -386,24 +389,24 @@ function App() {
               style={{ width: 330 }}
               cover={<YoutubeEmbed videoId={videoId} />}
             >
-              <Meta
-                title="Renda Animation Conference Submit 2024"
-                description="www.rendacon.com"
-              />
+              <Meta title="Aquafina Water" description="www.aquafina.com" />
             </Card>
             <Card
               hoverable
               style={{ width: 330 }}
               cover={<YoutubeEmbed videoId={videoId1} />}
             >
-              <Meta title="Aquafina Water" description="www.aquafina.com" />
+              <Meta title="Real Estate" description="www.amestate.com" />
             </Card>
             <Card
               hoverable
               style={{ width: 330 }}
               cover={<YoutubeEmbed videoId={videoId2} />}
             >
-              <Meta title="Real Estate" description="www.amestate.com" />
+              <Meta
+                title="Renda Animation Conference Submit 2024"
+                description="www.rendacon.com"
+              />
             </Card>
           </div>
         </section>
@@ -467,9 +470,9 @@ function App() {
           spy={true}
           smooth={true}
           duration={500}
-          style={{ 
+          style={{
             cursor: "pointer",
-           }}
+          }}
         >
           <i class="fa fa-rocket" aria-hidden="true"></i>
         </Element>
